@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE7BA"
+    tools:context=".activities.MainActivity">
+
+    <TextView
+        android:id="@+id/main_text"
+        style="@style/main_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:text="@string/text_name"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageBackLogoMain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/imageBackLogoMain"
+        android:layout_width="221dp"
+        android:layout_height="210dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.298"
+        app:srcCompat="@drawable/logo_background"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageLogoMain"
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageBackLogoMain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/bird_logo"
+        tools:ignore="ImageContrastCheck" />
+
+    <android.widget.Button
+        android:id="@+id/play_btn"
+        style="@style/main_text"
+        android:layout_width="158dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/gradient_btn"
+        android:text="@string/text_play"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageBackLogoMain"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/info_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle_shape"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.953"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02"
+        app:srcCompat="@drawable/info_img"
+        tools:ignore="NewApi,SpeakableTextPresentCheck,ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/star_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle_shape"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.979"
+        app:srcCompat="@drawable/star_img"
+        tools:ignore="NewApi,SpeakableTextPresentCheck,ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/store_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle_shape"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.953"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.979"
+        app:srcCompat="@drawable/store_img"
+        tools:ignore="NewApi,SpeakableTextPresentCheck,ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/coin_img"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/info_btn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.031"
+        app:srcCompat="@drawable/coin" />
+
+    <TextView
+        android:id="@+id/money_main"
+        style="@style/main_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.031" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

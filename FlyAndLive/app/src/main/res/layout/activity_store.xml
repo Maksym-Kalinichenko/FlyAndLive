@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sand"
+    tools:context=".activities.StoreActivity">
+
+    <ImageView
+        android:id="@+id/coin_img"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/coin" />
+
+    <TextView
+        android:id="@+id/money_store"
+        style="@style/main_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="16dp"
+        android:text=""
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/text_store"
+        style="@style/main_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="@string/store_text"
+        android:textSize="32sp" />
+
+    <include layout="@layout/content_store" />
+
+    <ImageButton
+        android:id="@+id/store_home_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/circle_shape"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:srcCompat="@drawable/home_img"
+        tools:ignore="NewApi,SpeakableTextPresentCheck,ImageContrastCheck" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

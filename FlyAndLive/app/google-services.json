@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "387326066920",
+    "project_id": "fly-and-live",
+    "storage_bucket": "fly-and-live.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387326066920:android:61a6d40a69c8e3d889095d",
+        "android_client_info": {
+          "package_name": "com.example.flyandlive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387326066920-7lq4bbabbeh90tnbf1i5o72614gbrbkk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXj8gfRS0lE6w8LVvv0KaSBV0vXPQX0pQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387326066920-7lq4bbabbeh90tnbf1i5o72614gbrbkk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

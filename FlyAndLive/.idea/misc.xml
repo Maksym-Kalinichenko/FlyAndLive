@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3135" />
+        <entry key="app/src/main/res/drawable/circle_shape.xml" value="0.3439651489257813" />
+        <entry key="app/src/main/res/drawable/gradient_btn.xml" value="0.3135" />
+        <entry key="app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.391" />
+        <entry key="app/src/main/res/drawable/ic_baseline_star_border_24.xml" value="0.403" />
+        <entry key="app/src/main/res/drawable/ic_baseline_store_24.xml" value="0.403" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.3135" />
+        <entry key="app/src/main/res/drawable/restart_img.xml" value="0.403" />
+        <entry key="app/src/main/res/layout-v31/activity_main.xml" value="0.35507246376811596" />
+        <entry key="app/src/main/res/layout/activity_finish.xml" value="0.35314636230468754" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3962158203124999" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.3189397178281317" />
+        <entry key="app/src/main/res/layout/activity_score.xml" value="0.3432934821904107" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.5938888549804688" />
+        <entry key="app/src/main/res/layout/activity_store.xml" value="0.20532379150390626" />
+        <entry key="app/src/main/res/layout/content_sstrore.xml" value="0.3189397178281317" />
+        <entry key="app/src/main/res/layout/content_store.xml" value="0.33133817870884996" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.33704496581822496" />
+        <entry key="app/src/main/res/layout/fragment_landscaes.xml" value="0.33133817870884996" />
+        <entry key="app/src/main/res/layout/fragment_second.xml" value="0.33133817870884996" />
+        <entry key="app/src/main/res/layout/fragment_skins.xml" value="0.33133817870884996" />
+        <entry key="app/src/main/res/layout/info_layout.xml" value="0.2933094645143128" />
+        <entry key="app/src/main/res/layout/item_score.xml" value="0.33133817870884996" />
+        <entry key="app/src/main/res/layout/score_layout.xml" value="0.29653371796922756" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.3873703002929688" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
